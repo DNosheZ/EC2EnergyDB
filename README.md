@@ -175,7 +175,7 @@ Un Cliente puede tener multiples Mantenimientos asociados
 Un Proveedor puede proporcionar varios Productos.
 
 
-![Imagen 1. MER](https://github.com/user-attachments/assets/5097ad77-fc87-40a9-83b0-43fcdf9ac22e)
+![TInd](https://github.com/user-attachments/assets/4a12591a-d367-4ede-9901-5b6402339b46)
 Imagen 1. MER
 
 
