@@ -113,20 +113,20 @@ CREATE TABLE ec2energy.mantenimiento (
     
     -- Llenado de tablas
     -- Insertando registros en la tabla `clientes`
-INSERT INTO ec2energy.clientes (nombre, direccion, telefono, email, clientescol) VALUES
-('Juan Pérez', 'Calle 123', '3123456789', 'juan@example.com', 'Colombia'),
-('Maria López', 'Avenida 456', '3134567890', 'maria@example.com', 'Colombia'),
-('Carlos Sánchez', 'Carrera 789', '3145678901', 'carlos@example.com', 'Colombia'),
-('Ana García', 'Calle 101', '3156789012', 'ana@example.com', 'Colombia'),
-('Luis Torres', 'Avenida 202', '3167890123', 'luis@example.com', 'Colombia');
+INSERT INTO ec2energy.clientes (nombre, direccion, telefono, email) VALUES
+('Juan Pérez', 'Calle 123', '3123456789', 'juan@example.com'),
+('Maria López', 'Avenida 456', '3134567890', 'maria@example.com'),
+('Carlos Sánchez', 'Carrera 789', '3145678901', 'carlos@example.com'),
+('Ana García', 'Calle 101', '3156789012', 'ana@example.com'),
+('Luis Torres', 'Avenida 202', '3167890123', 'luis@example.com');
 
 
-INSERT INTO ec2energy.tecnico (nombre, direccion, telefono, email, clientescol) VALUES
-('Javier Ruiz', 'Calle A', '3178901234', 'javier@example.com', 'Colombia'),
-('Laura Pérez', 'Calle B', '3189012345', 'laura@example.com', 'Colombia'),
-('Luis Fernández', 'Calle C', '3190123456', 'luisf@example.com', 'Colombia'),
-('Sofia Gómez', 'Calle D', '3201234567', 'sofia@example.com', 'Colombia'),
-('Pedro González', 'Calle E', '3212345678', 'pedro@example.com', 'Colombia');
+INSERT INTO ec2energy.tecnico (nombre, direccion, telefono, email) VALUES
+('Javier Ruiz', 'Calle A', '3178901234', 'javier@example.com'),
+('Laura Pérez', 'Calle B', '3189012345', 'laura@example.com'),
+('Luis Fernández', 'Calle C', '3190123456', 'luisf@example.com'),
+('Sofia Gómez', 'Calle D', '3201234567', 'sofia@example.com',
+('Pedro González', 'Calle E', '3212345678', 'pedro@example.com');
 
 
 INSERT INTO ec2energy.proveedor (nombre, contacto) VALUES
